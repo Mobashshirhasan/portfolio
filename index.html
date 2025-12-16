@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobashshir Portfolio | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <!-- Header -->
+    <header>
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+                <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1>Hello, I'm <span>Mobashshir Hasan</span></h1>
+            <p>Software Developer | Python Developer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Software Developer currently working as a 
+            <strong>Python Developer at Ultimate Tek Solution</strong> in Bengaluru.
+            I hold a B.Tech in Computer Science Engineering from Al-Falah University.
+            I enjoy building efficient applications and continuously improving my skills.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <span>Python</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Oracle SQL</span>
+            <span>Git</span>
+            <span>GitHub</span>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Python Developer</h3>
+            <h4>Ultimate Tek Solution – Bengaluru</h4>
+            <p>
+                Developing and maintaining Python-based applications, 
+                working with Oracle SQL databases, and collaborating with teams
+                to improve performance and code quality.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Data Management System</h3>
+                <p>Python application with Oracle SQL integration for CRUD operations.</p>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Responsive personal portfolio using HTML and CSS.</p>
+            </div>
+            <div class="project-card">
+                <h3>GitHub Repositories</h3>
+                <p>Collection of Python, SQL, and web development projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: mobashshir12@gmail.com</p>
+        <p>Location: Bengaluru, India</p>
+        <p>GitHub: https://github.com/Mobashshirhasan</p>
+        <p>LinkedIn: linkedin.com/in/mobashshir-hasan-2142b7243</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Mobashshir Hasan | Software Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
